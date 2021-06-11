@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @ALEXA_PLUGIN to your Group and try again</b>",
+                                  "\n\nOr manually add @JEEVMUSIC to your Group and try again</b>",
                               )
                               pass
     try:
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="✯ΛLEXA ᴍᴜꜱɪᴄ✯▶️ **Playing** here the song requested by {} 😜".format(
+        caption="✯𝙅𝙀𝙀𝙑 𝙈𝙐𝙎𝙄𝘾✯▶️ **Playing** here the song requested by {} 😜".format(
         message.from_user.mention()
         ),
     )
@@ -554,7 +554,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "ALEXA_PLUGIN"
+        user.first_name =  "JEEVMUSIC"
     usar = user
     wew = usar.id
     try:
@@ -584,7 +584,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @ALEXA_PLUGIN to your Group and try again</b>",
+                                  "\n\nOr manually add @JEEVMUSIC to your Group and try again</b>",
                               )
                               pass
     try:
@@ -592,7 +592,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Looks like @ALEXA_PLUGIN Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
+            f"<i>Looks like @JEEVMUSIC Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
@@ -647,9 +647,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯ΛLEXA ᴍᴜꜱɪᴄ✯=#️⃣ Queued at position {position}")
+        await res.edit_text(f"✯𝙅𝙀𝙀𝙑 𝙈𝙐𝙎𝙄𝘾✯=#️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯ΛLEXA ᴍᴜꜱɪᴄ✯=▶️ Playing.....")
+        await res.edit_text("✯𝙅𝙀𝙀𝙑 𝙈𝙐𝙎𝙄𝘾✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -684,7 +684,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "ALEXA_PLUGIN"
+        user.first_name =  "JEEVMUSIC"
     usar = user
     wew = usar.id
     try:
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @ALEXA_PLUGIN to your Group and try again</b>",
+                                  "\n\nOr manually add @JEEVMUSIC to your Group and try again</b>",
                               )
                               pass
     try:
@@ -782,12 +782,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯ΛLEXA ᴍᴜꜱɪᴄ✯=#️⃣ Queued at position {position}",
+            caption=f"✯𝙅𝙀𝙀𝙑 𝙈𝙐𝙎𝙄𝘾✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯ΛLEXA ᴍᴜꜱɪᴄ✯=▶️ Playing.....")
+        await res.edit_text("✯𝙅𝙀𝙀𝙑 𝙈𝙐𝙎𝙄𝘾✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
