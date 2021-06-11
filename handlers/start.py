@@ -12,8 +12,8 @@ async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI am ΛLEXA ᴍᴜꜱɪᴄ • @xxvasu ❤
-\nContact us at @Yuki_Support
+\nI am 𝙅𝙀𝙀𝙑 𝙈𝙐𝙎𝙄𝘾 • @JEEVMUSIC
+\nContact us at @JEEVVCCHAT
 \n/help list of available commands.
  </b>""",
       
@@ -22,23 +22,23 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "♬Ɯ៩ន០៣៩ ᖲᖰ០នន០៣ន🎵", url="https://t.me/hindi_chatting_india",
+                        "𝙁𝙐𝙇𝙇 𝙎𝙐𝙋𝙋𝙊𝙍𝙏", url="https://t.me/JEEVVCCHAT",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👤 Owner", url="https://t.me/xxvasu"
+                        "👤 Owner", url="https://t.me/JEEVMUSIC"
                     ),
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/hindi_chatting_india"
+                        "💬 Group", url="https://t.me/JEEVVCCHAT"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Updates", url="https://t.me/vasuxd"
+                        "🔊 Updates", url="https://t.me/JEEVVC"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/ALEXA_music_robot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/JEEV_VPS_ROBOT?startgroup=true"
                     ) 
                 ]
             ]
@@ -57,7 +57,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Updates", url="https://t.me/vasuxd"
+                        "🔊 Updates", url="https://t.me/JEEVVC"
                     )
                 ],    
                 [    
@@ -99,13 +99,13 @@ async def help(client: Client, message: Message):
 /end - stop music play
 /userbotjoin - invite assistant to your chat
 /admincache - Refresh admin list
-\n𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐰𝐢𝐭𝐡 ❤️ 𝐛𝐲 𝐕𝐀𝐒𝐔
+\n𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐰𝐢𝐭𝐡 ❤️ 𝐛𝐲 𝙍𝘼𝙅𝙀𝙀𝙑
  </b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐇𝐄𝐋𝐏 𝐂𝐎𝐍𝐓𝐀𝐂𝐓", url="https://t.me/Yuki_Support"
+                        "𝐇𝐄𝐋𝐏 𝐂𝐎𝐍𝐓𝐀𝐂𝐓", url="https://t.me/JEEVVCCHAT"
                     )
                 ]
             ]
