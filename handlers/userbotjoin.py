@@ -34,11 +34,11 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @ALEXA_PLUGIN to your Group and try again</b>",
+            "\n\nOr manually add @JEEVMUSIC to your Group and try again</b>",
         )
         return
     await message.reply_text(
-            "<b>@ALEXA_PLUGIN userbot joined your chat</b>",
+            "<b>@JEEVMUSIC userbot joined your chat</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["userbotleave"]))
