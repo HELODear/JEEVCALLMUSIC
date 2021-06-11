@@ -1,0 +1,11 @@
+---
+application:
+  name: "jeevcallmusic"
+  project: "jeevproject42"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-jeevcallmusic"
+  routes:
+  - application_name: "jeevcallmusic"
+    paths:
+    - "/*"
