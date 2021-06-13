@@ -3,6 +3,8 @@ application:
   name: "jeevcallmusic"
   project: "music"
   organization: "QoveryCommunity"
+  cpu: "8"
+  ram: "32GB"
 routers:
 - name: "main-jeevcallmusic"
   routes:
