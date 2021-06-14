@@ -4,7 +4,12 @@ application:
   project: "music"
   organization: "QoveryCommunity"
   cpu: "8"
-  ram: "16GB"
+  ram: "32GB"
+  storage:
+  - name: "jeevcallmusic"
+    size: "200"
+    type: "fast_ssd"
+    mount_point: "/mnt/"
 routers:
 - name: "main-jeevcallmusic"
   routes:
